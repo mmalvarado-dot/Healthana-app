@@ -1,0 +1,46 @@
+name: healthana
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  google_mlkit_text_recognition: ^0.13.0
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  sqflite: ^2.4.3
+  path: ^1.9.1
+  path_provider: ^2.1.6
+  url_launcher: ^6.3.2
+  speech_to_text: ^7.0.0
+  pdf: ^3.11.0
+  printing: ^5.12.0
+  intl: ^0.20.2
+  awesome_notifications:
+    git:
+      url: https://github.com/rafaelsetragni/awesome_notifications.git
+      ref: master
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21
